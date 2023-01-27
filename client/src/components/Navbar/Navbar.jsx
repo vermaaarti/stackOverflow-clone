@@ -24,8 +24,8 @@ const Navbar = () => {
             { User === null ?
            <Link to='/Auth' className='nav-item nav-links'> Log in </Link>:  
            <>
-          <Link to='/'><Avatar>A</Avatar></Link>
-             <Button>Log out</Button>
+         <Avatar backgroundColor='#009dff' px="10px" py="7px" borderRadius="50%" color='white'> <Link to='/User' style={{color:"white", textDecoration:'none'}}>A</Link></Avatar>
+             <Button className='nav-item nav-links'>Log out</Button>
            </>
            }
            
