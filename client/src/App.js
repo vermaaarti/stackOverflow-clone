@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+ import Navbar from './components/Navbar/Navbar'
+// import './App.css';
+import {BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-     <h1>stact over flow
-      
-     </h1>
+      <Router>
+     <Navbar/>
+   </Router>
     </div>
   );
 }
